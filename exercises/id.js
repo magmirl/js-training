@@ -7,10 +7,12 @@
  */
 
 // Your code :
+function id (x){
+    return x;
+}
 
 //* Begin of tests
 const assert = require('assert')
-
 assert.strictEqual(typeof id, 'function')
 assert.strictEqual(id.length, 1)
 assert.strictEqual(id(5), 5)

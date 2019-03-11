@@ -17,5 +17,3 @@ Commented code exemples for JavaScript
 - *[Event](https://github.com/nan-academy/js-training/blob/master/examples/event.js)* **WIP**
 - *[Stream](https://github.com/nan-academy/js-training/blob/master/examples/stream.js)* **WIP**
 - *[Promise](https://github.com/nan-academy/js-training/blob/master/examples/promise.js)* **WIP**
-
-## Coucou
