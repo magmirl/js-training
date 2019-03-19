@@ -9,7 +9,34 @@
  */
 
 // Your code :
-
+function multiply(x, y){
+    let compteur=0;
+    if (x==0 || y==0){
+        return 0;
+    } else if (x > 0 && y < 0){
+        for (let i=0; i>y; i--){
+            compteur-=x;
+        }
+        return compteur;
+    } else if (x < 0 && y > 0){
+        for (let i=0; i<y; i++){
+            compteur+=x;
+        }
+        return compteur;
+    }else if (x < 0 && y < 0){
+        for (let i=0; i>y; i--){
+            compteur+=x;
+        }
+        return Math.abs(compteur);
+    } else {
+        for (let i=0; i<y; i++){
+            compteur+=x;
+        }
+        return compteur;
+    }
+   
+}
+  
 //* Begin of tests
 const assert = require('assert')
 
