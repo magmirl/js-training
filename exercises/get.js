@@ -16,6 +16,27 @@ const sourceObject = {
 }
 
 // Your code :
+const num = 42
+const str = "some text"
+const bool = true
+const log = console.log
+let noexist
+
+const obj = ({
+  "str" : str,
+  "num" : num,
+  "bool" : bool,
+  "log" : log,
+  "noexist" : noexist,
+});
+
+
+const get =(a)=>{
+  return  obj[a];
+        
+    };
+    
+
 
 //* Begin of tests
 const assert = require('assert')

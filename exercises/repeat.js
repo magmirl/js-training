@@ -8,6 +8,21 @@
  *
  */
 
+function repeatStringNumTimes(string, times) {
+    
+    var repeatedString = "";
+  
+    while (times > 0) { 
+      repeatedString += string; 
+      times--; 
+    }
+   
+    return repeatedString;
+  }
+  
+  repeatStringNumTimes("a", 3);
+  
+
 //* Begin of tests
 const assert = require('assert')
 
